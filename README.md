@@ -39,13 +39,6 @@ cmake --build --preset release
 ctest --preset release
 ```
 
-## Debian trixie
-
-Debian trixie provides Clang 19 and CMake 3.31, which satisfy the requirements.
-Install `clang libclang-rt-19-dev cmake ninja-build` and use the `dev-clang`
-preset. Its GCC is 14.2, so GCC 15+ must come from a newer toolchain image
-(for example `gcc:15`).
-
 ## CI
 
 GitHub Actions uses the standard `ubuntu-latest` runner:
