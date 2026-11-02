@@ -48,3 +48,12 @@ GitHub Actions uses the standard `ubuntu-latest` runner:
 - clang-tidy and Cppcheck
 
 Both compiler builds run the tests with ASan and UBSan enabled.
+
+## License
+
+Licensed under either of
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE))
+- MIT license ([LICENSE-MIT](LICENSE-MIT))
+
+at your option.
